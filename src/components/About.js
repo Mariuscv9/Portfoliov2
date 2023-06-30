@@ -1,9 +1,18 @@
+"use client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 export default function About() {
   return (
-    <div>
-      <section className="about">
-        <div className="about-container">
-          <div className="text-container">
+    <section className="about">
+      <Container fluid="lg">
+        <Row className="about-container">
+          <Col
+            lg={6}
+            className="text-container d-flex align-items-center justify-content-center text-center"
+          >
             <h3>
               <img
                 className="hand"
@@ -17,12 +26,12 @@ export default function About() {
               Empowering Businesses through Web Development Expertise: Your
               Go-To Web Developer for Enhanced Online Success
             </p>
-          </div>
-          <div className="hero">
-            <img src="/hero1.png" alt="animated picture of dev"></img>
-          </div>
-        </div>
-      </section>
-    </div>
+          </Col>
+          <Col lg={6} className="hero">
+            <img src="/hero2.png" alt="animated picture of dev"></img>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 }

@@ -4,6 +4,11 @@ import TechIcons from "./TechIcons";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import global from "../app/globals.css";
 
 export default function Tools() {
   useEffect(() => {
@@ -30,8 +35,8 @@ export default function Tools() {
   });
   return (
     <section className="tools">
-      <div className="tools-container">
-        <div className="tools-text">
+      <Container fluid="lg" className="tools-container">
+        <Row className="tools-text d-flex align-items-center justify-content-center text-center ">
           <h3
             data-aos="fade-right"
             data-aos-offset="0"
@@ -64,9 +69,9 @@ export default function Tools() {
               I have also used various popular CMS like Wordpress or Shopify.
             </p>
           </div>
-        </div>
-        <div className="stack">{techIcons}</div>
-      </div>
+        </Row>
+        <Row className="stack">{techIcons}</Row>
+      </Container>
     </section>
   );
 }
