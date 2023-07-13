@@ -22,7 +22,7 @@ export default function About(props) {
                 src="/hand.png"
                 alt="waving hand icon"
               ></img>
-              Hi there! I'm Marius
+              Hi there! I am Marius
             </h3>
             <h1 className={props.pressstart2p}>A front-end web developer</h1>
             <p>
