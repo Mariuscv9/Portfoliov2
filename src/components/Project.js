@@ -36,7 +36,7 @@ export default function Project({ props }) {
               <img
                 className=" carousel-image"
                 src={props.img}
-                alt="First slide"
+                alt="Slide"
               ></img>
               <div className="carousel-text">
                 <h>{props.name}</h>
