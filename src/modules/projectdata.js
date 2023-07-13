@@ -2,7 +2,7 @@ let projectdata = [
   {
     id: 1,
     bg: "/krissitebg.png",
-    img: "/krissite.png",
+    img: "/kriss.png",
     name: "CKnailstudio",
     about: "Nail technician website with a clean design made with HTML and CSS",
     techlink: "https://www.css3.com/",
