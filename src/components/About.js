@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "next/image";
+import hero from "public/hero2.png";
 
 export default function About(props) {
   return (
@@ -29,7 +31,7 @@ export default function About(props) {
             </p>
           </Col>
           <Col lg={6} className="hero">
-            <img src="/hero2.png" alt="animated picture of dev"></img>
+            <Image src={hero} alt="animated picture of dev" />
           </Col>
         </Row>
       </Container>
