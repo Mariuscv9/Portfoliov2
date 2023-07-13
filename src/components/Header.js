@@ -7,22 +7,25 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-export default function Header() {
+export default function Header(props) {
   return (
-    <header>
+    <header className={props.className}>
       <Navbar expand="lg">
-        <Container fluid="lg" className="navbar-container">
-          <Navbar.Brand href="#home">
+        <Container fluid className="navbar-container">
+          <Navbar.Brand href="#top">
             <Image src={logo} alt="logo" width={270} height={85} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto me-2 nav">
-              <Nav.Link href="#home" className="links">
-                Home
+              <Nav.Link href="#top" className="links">
+                About
               </Nav.Link>
-              <Nav.Link href="#link" className="links">
-                Link
+              <Nav.Link href="#Tools" className="links">
+                Tools
+              </Nav.Link>
+              <Nav.Link href="#Portfolio" className="links">
+                Portfolio
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

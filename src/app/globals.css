@@ -105,7 +105,7 @@ a {
 
 header {
   color: #2ecc40;
-  background-color: black;
+  background-color: #12141d;
   position: fixed;
   width: 100%;
   z-index: 99;
@@ -164,13 +164,19 @@ a :visited {
   color: #2ecc40;
 }
 
+@media (min-width: 768px) {
+  .navbar-container {
+    margin: 0 2em;
+  }
+}
+
 .about {
   background: url("/bg1.jpg") rgba(0, 0, 0, 0.6);
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
   background-blend-mode: darken;
-  margin-top: 108px;
+  margin-top: 103px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,23 +208,30 @@ a :visited {
   display: flex;
 }
 h3 {
-  font-size: 1.7rem;
-  line-height: 1.2;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 h1 {
-  font-size: 2.5rem;
-  line-height: 1.1;
+  font-size: 1.7rem;
+  line-height: 1.3;
+  margin-top: 0.3em;
+}
+
+@media (max-width: 375px) {
+  .text-container h3 {
+    margin-top: 3em;
+  }
 }
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin-bottom: 0.3em;
   }
 
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 2em;
   }
   .text-container p {
@@ -235,11 +248,10 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   width: auto;
   background-blend-mode: darken;
-  padding: 5em 2em 2em 2em;
-  margin-top: 2em;
+  padding: 0em 2em 5em 2em;
 }
 
 @media (max-width: 768px) {
@@ -294,38 +306,144 @@ svg {
   flex-direction: column;
 }
 
-/* .stack :nth-child(1) {
-  animation: fadeInDown 1s ease-in;
+.section-title {
+  align-items: center;
+  background: #12141d;
+  border-radius: 12px;
+  box-shadow: inset 0 0 4px 1px #14e956;
+  -webkit-box-shadow: inset 0 0 4px 1px #14e956;
+  -moz-box-shadow: inset 0 0 4px 1px #14e956;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  width: auto;
+  height: auto;
+  font-size: 2rem !important;
+  padding: 0.5em;
+  margin: 2em auto 2em auto;
+  text-align: center;
 }
 
-.stack :nth-child(2) {
-  animation: fadeInDown 1.2s ease-in;
+@media (min-width: 768px) {
+  .tools-text p {
+    font-size: 1.5rem;
+  }
+  .section-title {
+    font-size: 3rem;
+  }
 }
 
-.stack :nth-child(3) {
-  animation: fadeInDown 1.4s ease-in;
+.carousel-content * {
+  margin: 0px;
+}
+.carousel-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.stack :nth-child(4) {
-  animation: fadeInDown 1.6s ease-in;
-}
-.stack :nth-child(5) {
-  animation: fadeInDown 1.8s ease-in;
-}
-.stack :nth-child(6) {
-  animation: fadeInDown 2s ease-in;
-}
-.stack :nth-child(7) {
-  animation: fadeInDown 2.2s ease-in;
-}
-.stack :nth-child(8) {
-  animation: fadeInDown 2.4s ease-in;
+@media (max-width: 768px) {
+  .carousel-content {
+    height: 75vh !important;
+  }
 }
 
-.stack :nth-child(9) {
-  animation: fadeInDown 2.6s ease-in;
+.carousel-image {
+  width: 80vw;
 }
 
-.stack :nth-child(10) {
-  animation: fadeInDown 2.8s ease-in;
-} */
+.carousel-text {
+  background: #fefcff;
+  width: 80vw;
+  color: black;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.carousel-text h3 {
+  font-size: 2rem;
+}
+.carousel-text p {
+  font-size: 1.2rem;
+}
+
+.link-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+.link-wrapper a {
+  border: solid 2px #2ecc40;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5em;
+  font-weight: 700;
+  color: black;
+  box-shadow: 1px 1px 1px #2ecc40;
+}
+
+.link-wrapper a:hover {
+  background-color: #2ecc40;
+  border: solid 1px black;
+}
+
+.inner-carousel-content {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+  margin-top: auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 1px 1px 15px 1px black;
+}
+
+footer a {
+  width: 100%;
+
+  color: #2ecc40 !important;
+  border: #2ecc40 solid 1px !important;
+  box-shadow: 1px 1px 1px #2ecc40;
+  background: #12141d !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 2rem;
+  padding: 0.5em;
+}
+
+footer svg {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5em;
+}
+
+.socials :hover {
+  background: #191c29 !important;
+  background-size: cover;
+}
+
+.base {
+  padding: 1em;
+  background: #191c29;
+  margin-top: 3em;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#top {
+  position: relative;
+  top: -250px;
+}
+
+#Tools,
+#Portfolio {
+  position: relative;
+  top: -80px;
+}

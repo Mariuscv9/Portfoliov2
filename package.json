@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^13.4.8",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "autoprefixer": "10.4.14",
