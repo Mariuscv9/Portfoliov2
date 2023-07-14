@@ -14,7 +14,7 @@ export default function Footer(props) {
             data-aos-easing="ease-in-out"
             data-aos-anchor-placement="top-bottom"
           >
-            <div>You can reach me at:</div>
+            <div>Contact me on:</div>
           </Col>
         </Row>
         <Row>

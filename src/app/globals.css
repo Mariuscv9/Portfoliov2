@@ -412,14 +412,25 @@ footer a {
   background: #12141d !important;
   display: flex !important;
   align-items: center !important;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0.5em;
 }
 
 footer svg {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin-right: 0.5em;
+}
+
+@media (min-width: 768px) {
+  footer a {
+    font-size: 2rem;
+  }
+  footer svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5em;
+  }
 }
 
 .socials :hover {
@@ -446,4 +457,16 @@ footer svg {
 #Portfolio {
   position: relative;
   top: -80px;
+}
+
+body
+  > main
+  > section.portfolio
+  > div
+  > div.row
+  > div.carouselcol.col-12
+  > div
+  > a.carousel-control-next
+  > span.carousel-control-next-icon.changed {
+  fill: #2ecc40;
 }

@@ -25,7 +25,7 @@ export default function Header(props) {
                 Tools
               </Nav.Link>
               <Nav.Link href="#Portfolio" className="links">
-                Portfolio
+                Projects
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
