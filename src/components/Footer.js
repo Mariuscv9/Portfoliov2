@@ -12,8 +12,6 @@ export default function Footer(props) {
             data-aos-offset="0"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
             data-aos-anchor-placement="top-bottom"
           >
             <div>You can reach me at:</div>

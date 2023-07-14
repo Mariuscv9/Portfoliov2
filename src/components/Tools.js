@@ -29,8 +29,6 @@ export default function Tools(props) {
             data-aos-offset="0"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
             data-aos-anchor-placement="top-bottom"
           >
             <div className={props.pressstart2p}>Skills & Tools</div>
@@ -40,8 +38,6 @@ export default function Tools(props) {
             data-aos-offset="0"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
             data-aos-anchor-placement="top-bottom"
           >
             <p>
@@ -70,8 +66,6 @@ export default function Tools(props) {
                 data-aos-offset="-200"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-delay={delay}
               >

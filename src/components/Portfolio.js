@@ -21,8 +21,6 @@ export default function Portfolio(props) {
             data-aos-offset="0"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
             data-aos-anchor-placement="top-bottom"
           >
             <div className={props.pressstart2p}>Past Projects</div>
