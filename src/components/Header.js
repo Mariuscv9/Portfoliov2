@@ -13,7 +13,7 @@ export default function Header(props) {
       <Navbar expand="lg">
         <Container fluid className="navbar-container">
           <Navbar.Brand href="#top">
-            <Image src={logo} alt="logo" width={270} height={85} />
+            <Image src={logo} alt="logo" width={240} height={85} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
