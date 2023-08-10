@@ -4,10 +4,10 @@ let projectdata = [
     bg: "/krissitebg.png",
     img: "/kriss.png",
     name: "CKnailstudio",
-    about: "Nail technician website with a clean design made with HTML and CSS",
+    about: "Nail technician website with a clean design made with Next.js,Html,Css,JavaScript and instagram basic display api",
     techlink: "https://www.css3.com/",
     link: "https://cknailstudio.ro/",
-    techname: "CSS3",
+    techname: "Next.js",
   },
   {
     id: 2,
