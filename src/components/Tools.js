@@ -27,7 +27,7 @@ export default function Tools(props) {
             className="section-title"
             data-aos="fade-right"
             data-aos-offset="0"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-anchor-placement="top-bottom"
           >
@@ -36,7 +36,7 @@ export default function Tools(props) {
           <div
             data-aos="fade-left"
             data-aos-offset="0"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-anchor-placement="top-bottom"
           >
@@ -55,7 +55,7 @@ export default function Tools(props) {
         </Row>
         <Row>
           {icons.map((data, index) => {
-            const delay = (index + 1) * 250;
+            const delay = (index + 1) * 150;
             return (
               <Col
                 xs={4}

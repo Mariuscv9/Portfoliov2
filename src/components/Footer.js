@@ -10,7 +10,7 @@ export default function Footer(props) {
             className="section-title"
             data-aos="fade-right"
             data-aos-offset="0"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-anchor-placement="top-bottom"
           >
