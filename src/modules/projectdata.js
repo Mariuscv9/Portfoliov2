@@ -5,7 +5,7 @@ let projectdata = [
     img: "/kriss.png",
     name: "CKnailstudio",
     about: "Nail technician website with a clean design made with Next.js,Html,Css,JavaScript and instagram basic display api",
-    techlink: "https://www.css3.com/",
+    techlink: "https://nextjs.org/",
     link: "https://cknailstudio.ro/",
     techname: "Next.js",
   },
@@ -20,6 +20,18 @@ let projectdata = [
     link: "https://la-salon.ro/",
     techname: "Wordpress",
   },
+  {
+    id: 3,
+    bg: "/micibg.png",
+    img: "/mici.png",
+    name: "Miciweather",
+    about:
+      "Joke global weather app that let's you know if the weather is right for a barbecue in the city you select",
+    techlink: "https://nextjs.org/",
+    link: "https://miciweather.vercel.app/",
+    techname: "Next.js",
+  },
+
 ];
 
 export default projectdata;
