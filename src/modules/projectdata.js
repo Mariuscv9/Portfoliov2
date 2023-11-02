@@ -31,6 +31,17 @@ let projectdata = [
     link: "https://miciweather.vercel.app/",
     techname: "Next.js",
   },
+  {
+    id: 4,
+    bg: "/lemnbg.png",
+    img: "/lemn.png",
+    name: "Din Lemn",
+    about:
+      "Website for woodworking services made with next.js typescript and tailwind.css",
+    techlink: "https://nextjs.org/",
+    link: "https://lemn.vercel.app/",
+    techname: "Next.js",
+  },
 
 ];
 

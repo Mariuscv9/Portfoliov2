@@ -39,7 +39,7 @@ export default function Project({ props }) {
                 alt="Slide"
               ></img>
               <div className="carousel-text">
-                <h>{props.name}</h>
+                <h3>{props.name}</h3>
                 <p>{props.about}</p>
                 <div className="link-wrapper">
                   <a href={props.techlink}>{props.techname}</a>

@@ -354,23 +354,26 @@ svg {
 }
 
 .carousel-image {
-  width: 80vw;
+  width: 75vw;
 }
 
 .carousel-text {
   background: #fefcff;
-  width: 80vw;
+  width: 75vw;
   color: black;
-  padding-bottom: 1em;
-  padding-left: 2em;
+  padding: 1em;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 .carousel-text h3 {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 .carousel-text p {
   font-size: 1.2rem;
+}
+
+.carousel-control-next-icon{
+  
 }
 
 .link-wrapper {
