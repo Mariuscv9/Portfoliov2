@@ -39,7 +39,7 @@ let projectdata = [
     about:
       "Website for woodworking services made with next.js typescript and tailwind.css",
     techlink: "https://nextjs.org/",
-    link: "https://lemn.vercel.app/",
+    link: "https://www.dinlemn.com/",
     techname: "Next.js",
   },
 
